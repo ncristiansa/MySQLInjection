@@ -26,6 +26,8 @@
 	$result=$stmt->rowCount();
 			if ($result==1) {
 				echo "Hola soy: $nombre";
+			}else{
+				echo "Usuario no encontrado";
 			}
 ?>
 </body>
